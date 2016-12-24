@@ -1,0 +1,50 @@
+.customFooter{
+	height: auto;
+	background: transparent;
+}
+
+.background{
+	 background: url(../img/bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+.custom-btn-color{
+	color: #000 !important;
+}
+.bar-center h4{
+	color: #fff  !important;
+	text-align: center !important;
+}
+.custom-bar{
+	background: #009688 !important
+}
+.bg-img{
+	width: 100%;
+	min-height: 100px;
+	height: 150px;	
+	background: url(../img/bg.jpg) center center no-repeat;
+	background-size: cover;	
+	position: relative;
+}
+.profileImg{
+	width: 80px;
+    height: 80px;
+    overflow: hidden;   
+    margin: 0px auto;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    border: 2px solid #fff;
+}
+.profileImg img{
+	width: 100%;
+}
+.abs-btn{
+	 position: absolute;
+    bottom: 0px;
+    right: 10px;
+    background: transparent;
+    color: #fff;
+}
+.in-out-zone{
+	margin-top: 15px;
+}

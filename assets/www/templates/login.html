@@ -1,0 +1,40 @@
+<ion-view class="padding"> 
+<div class="bar bar-header bar-royal">
+     <a href="#/" class="button ion-ios-arrow-left button-clear button-light"></a>
+     <div class="h4 title">User Login</div>
+  </div> 
+  <ion-content>
+  <div class="row">
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"><br><br><br><br><br><br><br><br></div>
+
+  </div>
+  <ion-list>
+
+  <div class="list padding">
+       
+        <span class="row">{{errMsg}}</span>          
+      
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">Email id</span>
+      <input ng-model="user.email" type="email"   placeholder="example@ranit.com">     
+    </label>
+
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">Password</span>
+      <input ng-model="user.password" type="password"  placeholder="********">
+    </label>
+    
+    <button  class="button button-block button-positive " ng-click="loginSubmit()" >Login</button>
+
+    <div class="row">
+       <div class="col"> <a href="#/register" style="font-size:10px" title="">Be a Member</a>   </div>
+      <div class="col"> </div>
+      <div class="col"> <a href="#forgetPassword" style="font-size:10px" title="">Forget password?</a>   </div>
+    </div>
+    
+  </div>
+  </ion-content>
+</ion-view>
